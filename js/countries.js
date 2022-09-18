@@ -13,7 +13,7 @@ const displayCountries = countries => {
 }
 const getCountryHTML = country =>{
     return `
-    <div>
+    <div class='country'>
         <img src="${country.flags.png}">
         <h2> ${country.name} </h2>
     </div>
